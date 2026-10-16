@@ -1,0 +1,1 @@
+{"name":"family-financial-planning-101","version":"1.2.0","private":true,"type":"module","scripts":{"check":"node scripts/check.mjs","build":"node scripts/build.mjs","test":"node scripts/calculation-tests.mjs"},"engines":{"node":">=18"}}

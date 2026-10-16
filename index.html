@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A practical, public guide to spending deliberately, earning resiliently, protecting your household and investing toward family goals.">
+  <meta name="theme-color" content="#123b3a">
+  <meta property="og:title" content="Family Financial Planning 101">
+  <meta property="og:description" content="Spend deliberately. Earn resiliently. Protect your household. Invest with purpose.">
+  <meta property="og:type" content="website">
+  <title>Family Financial Planning 101</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+  <script defer src="assets/js/calculators.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the guide</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Family Financial Planning 101 home">
+      <span class="brand-mark" aria-hidden="true">F</span>
+      <span>Family Financial Planning <strong>101</strong></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#framework">Framework</a><a href="#plan">Plan</a><a href="#tools">Tools</a><a href="#case">Family example</a><a href="#reading">Deep dives</a><a href="#act">Take action</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">A plain-language family money guide</p>
+        <h1>Build security.<br><em>One decision at a time.</em></h1>
+        <p class="lede">A good family plan is not a perfect budget. It is a shared system for using today’s money to protect tomorrow’s choices.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#quick-start">Start the 5-minute plan</a>
+          <button class="button secondary" type="button" data-print>Print the worksheets</button>
+        </div>
+        <p class="micro">No sign-up. No tracking. Your calculator inputs stay on your device.</p>
+      </div>
+      <figure class="hero-figure">
+        <img src="assets/images/spend-earn-invest.svg" alt="Hand-drawn family financial plan connecting Spend, Earn, Protect and Invest to emergency security, education, a home, retirement and legacy.">
+        <figcaption>The family money system: purpose first, then cash flow, protection and long-term goals.</figcaption>
+      </figure>
+    </section>
+
+    <section class="principle-strip" aria-label="The central principle">
+      <p><span>01</span> Spend deliberately</p><p><span>02</span> Earn resiliently</p><p><span>03</span> Protect the household</p><p><span>04</span> Invest the difference</p>
+    </section>
+
+    <section class="section quick-start" id="quick-start">
+      <div class="section-heading">
+        <p class="eyebrow">The 5-minute start</p><h2>Know your next move</h2>
+        <p>Answer these privately. This is a reflection tool, not a credit score or financial assessment.</p>
+      </div>
+      <form id="diagnostic" class="diagnostic card" aria-describedby="diagnostic-note">
+        <fieldset>
+          <legend>Which statements are true for your household today?</legend>
+          <label><input type="checkbox"> We know what normally comes in and goes out.</label>
+          <label><input type="checkbox"> We regularly finish the month or income cycle with money left.</label>
+          <label><input type="checkbox"> We have cash for at least one month of essential costs.</label>
+          <label><input type="checkbox"> We know every debt balance, repayment and due date.</label>
+          <label><input type="checkbox"> We have considered the largest risks to our family income and health.</label>
+          <label><input type="checkbox"> Our financial goals have amounts and dates.</label>
+          <label><input type="checkbox"> We save or invest automatically or by a fixed routine.</label>
+          <label><input type="checkbox"> We verify that financial providers are licensed or regulated.</label>
+        </fieldset>
+        <button class="button primary" type="submit">Show my starting point</button>
+        <output id="diagnostic-result" class="result" aria-live="polite"></output>
+        <p id="diagnostic-note" class="micro">Your answers are not stored or transmitted.</p>
+      </form>
+    </section>
+
+    <section class="section framework" id="framework">
+      <div class="section-heading"><p class="eyebrow">The framework</p><h2>Four jobs for every shilling</h2><p>The order matters. Investing is powerful, but it cannot repair an unstable cash flow or replace protection against a large shock.</p></div>
+      <div class="steps">
+        <article><span class="step-number">01</span><h3>Spend</h3><p>Cover essentials and commitments, then choose wants consciously. A plan should preserve dignity, not punish the family.</p><p class="prompt">Ask: What gives us real value?</p></article>
+        <article><span class="step-number">02</span><h3>Earn</h3><p>Protect existing income and strengthen skills, customers or assets that can make earnings more reliable.</p><p class="prompt">Ask: How can income become less fragile?</p></article>
+        <article><span class="step-number">03</span><h3>Protect</h3><p>Build an emergency reserve, understand insurance needs, document obligations and reduce expensive debt.</p><p class="prompt">Ask: What could undo our progress?</p></article>
+        <article><span class="step-number">04</span><h3>Invest</h3><p>Put long-term money into diversified, regulated options that fit the goal, time horizon and ability to take risk.</p><p class="prompt">Ask: When will we need this money?</p></article>
+      </div>
+      <aside class="note"><strong>Saving is not the same as investing.</strong> Saving keeps near-term money accessible and relatively stable. Investing accepts uncertainty to pursue longer-term growth. A family often needs both.</aside>
+    </section>
+
+    <section class="section plan" id="plan">
+      <div class="section-heading"><p class="eyebrow">The 30-minute core lesson</p><h2>Build the family plan in seven moves</h2></div>
+      <div class="accordion" data-accordion>
+        <details open><summary><span>1</span> Begin with purpose</summary><div><p>Write what money needs to make possible: safety, education, a home, care for relatives, retirement, faith, community or opportunity. Choose no more than three priority goals for the next year.</p><div class="family-question">Family conversation: “What would make us feel more secure twelve months from now?”</div></div></details>
+        <details><summary><span>2</span> Take a household snapshot</summary><div><p>List what you own, what you owe, the income you can reasonably expect, essential costs, dependants and existing protection. Net worth is assets minus debts; it is a planning measure, not a measure of personal worth.</p><a href="#snapshot" class="text-link">Use the printable snapshot ↓</a></div></details>
+        <details><summary><span>3</span> Plan cash flow</summary><div><p>For stable income, allocate each pay cycle. For irregular income, plan from a conservative “base income”, separate business and household cash, and divide larger receipts across future months before spending them.</p><div class="callout"><strong>Try this:</strong> Track only five groups first—home, food, transport, people and future. Add detail only if it helps a decision.</div></div></details>
+        <details><summary><span>4</span> Build shock absorbers</summary><div><p>Start with a small cash buffer, then build toward a reserve based on essential costs, income stability, health needs and dependants. The right target is a range, not a universal rule.</p><p>Review health, life, property, disability and business risks. Insurance transfers certain large risks; it is not an investment substitute.</p></div></details>
+        <details><summary><span>5</span> Control debt</summary><div><p>Record the balance, interest method, fees, minimum payment, security and due date for every debt. Prioritise arrears and debts that threaten essential assets, then choose either the highest-cost-first method or smallest-balance-first method.</p><div class="warning"><strong>Watch out:</strong> A flat rate can look cheaper than its effective cost because interest may be calculated on the original principal even as you repay.</div></div></details>
+        <details><summary><span>6</span> Match money to time</summary><div><div class="horizon-grid"><p><strong>0–2 years</strong><br>Safety and liquidity matter most.</p><p><strong>2–5 years</strong><br>Balance access, stability and some growth.</p><p><strong>5+ years</strong><br>More time may allow more market risk and diversification.</p></div><p>Do not put near-term school fees or emergency money into an asset that may fall sharply or be hard to sell when needed.</p></div></details>
+        <details><summary><span>7</span> Run the family system</summary><div><p>Hold a short monthly meeting: review what changed, pay or schedule commitments, update one goal, agree one decision and assign actions. Keep records and review beneficiaries, nominees and key documents annually.</p></div></details>
+      </div>
+    </section>
+
+    <section class="section tools" id="tools">
+      <div class="section-heading"><p class="eyebrow">Private browser tools</p><h2>Turn principles into numbers</h2><p>These educational illustrations run on your device. Results are rounded and are not forecasts or recommendations.</p></div>
+      <div class="tool-tabs" role="tablist" aria-label="Financial calculators">
+        <button role="tab" aria-selected="true" aria-controls="calc-surplus" id="tab-surplus">Surplus</button>
+        <button role="tab" aria-selected="false" aria-controls="calc-reserve" id="tab-reserve">Reserve</button>
+        <button role="tab" aria-selected="false" aria-controls="calc-goal" id="tab-goal">Goal</button>
+        <button role="tab" aria-selected="false" aria-controls="calc-growth" id="tab-growth">Growth</button>
+        <button role="tab" aria-selected="false" aria-controls="calc-debt" id="tab-debt">Debt</button>
+      </div>
+      <div class="calculator card" id="calc-surplus" role="tabpanel" aria-labelledby="tab-surplus">
+        <div><h3>Household surplus</h3><p>What remains after essential costs, commitments and chosen spending?</p></div>
+        <form data-calc="surplus"><label>Average monthly income <span>UGX</span><input name="income" inputmode="decimal" value="3200000"></label><label>Essential costs and commitments <span>UGX</span><input name="costs" inputmode="decimal" value="2750000"></label><div class="form-actions"><button class="button primary" type="submit">Calculate</button><button class="button ghost" type="reset">Reset</button></div></form>
+        <output class="calc-output" aria-live="polite"><span>Estimated monthly difference</span><strong>UGX 450,000</strong><small>Income minus costs. Confirm irregular and annual expenses before committing the full amount.</small></output>
+      </div>
+      <div class="calculator card" id="calc-reserve" role="tabpanel" aria-labelledby="tab-reserve" hidden>
+        <div><h3>Emergency-reserve range</h3><p>A planning range based on essential costs and income stability.</p></div>
+        <form data-calc="reserve"><label>Monthly essential costs <span>UGX</span><input name="essentials" inputmode="decimal" value="1800000"></label><label>Income stability<select name="stability"><option value="2,3">Stable income</option><option value="3,6" selected>Mixed or variable income</option><option value="6,9">Highly irregular or single source</option></select></label><div class="form-actions"><button class="button primary" type="submit">Calculate</button><button class="button ghost" type="reset">Reset</button></div></form>
+        <output class="calc-output" aria-live="polite"><span>Illustrative reserve range</span><strong>UGX 5.4m–10.8m</strong><small>Three to six months of essential costs. Adjust for dependants, health needs, insurance and access to support.</small></output>
+      </div>
+      <div class="calculator card" id="calc-goal" role="tabpanel" aria-labelledby="tab-goal" hidden>
+        <div><h3>Goal contribution</h3><p>How much would you need to set aside each month without assuming investment returns?</p></div>
+        <form data-calc="goal"><label>Goal amount <span>UGX</span><input name="target" inputmode="decimal" value="12000000"></label><label>Already set aside <span>UGX</span><input name="saved" inputmode="decimal" value="3000000"></label><label>Months remaining<input name="months" inputmode="numeric" value="18"></label><div class="form-actions"><button class="button primary" type="submit">Calculate</button><button class="button ghost" type="reset">Reset</button></div></form>
+        <output class="calc-output" aria-live="polite"><span>Monthly contribution</span><strong>UGX 500,000</strong><small>(Goal minus current amount) divided by months. Fees, inflation and returns are excluded.</small></output>
+      </div>
+      <div class="calculator card" id="calc-growth" role="tabpanel" aria-labelledby="tab-growth" hidden>
+        <div><h3>Compound-growth illustration</h3><p>See how time and regular contributions interact. Returns are never guaranteed.</p></div>
+        <form data-calc="growth"><label>Starting amount <span>UGX</span><input name="principal" inputmode="decimal" value="1000000"></label><label>Monthly contribution <span>UGX</span><input name="monthly" inputmode="decimal" value="200000"></label><label>Illustrative annual return <span>%</span><input name="rate" inputmode="decimal" value="8"></label><label>Years<input name="years" inputmode="numeric" value="10"></label><div class="form-actions"><button class="button primary" type="submit">Illustrate</button><button class="button ghost" type="reset">Reset</button></div></form>
+        <output class="calc-output" aria-live="polite"><span>Illustrative future value</span><strong>UGX 39.1m</strong><small>Approximate nominal value before fees, tax and inflation; actual returns can be lower or negative.</small></output>
+      </div>
+      <div class="calculator card" id="calc-debt" role="tabpanel" aria-labelledby="tab-debt" hidden>
+        <div><h3>Reducing-balance loan</h3><p>Estimate equal monthly payments and total interest for a standard amortising loan.</p></div>
+        <form data-calc="debt"><label>Loan amount <span>UGX</span><input name="principal" inputmode="decimal" value="5000000"></label><label>Annual rate <span>%</span><input name="rate" inputmode="decimal" value="24"></label><label>Term <span>months</span><input name="months" inputmode="numeric" value="24"></label><div class="form-actions"><button class="button primary" type="submit">Estimate</button><button class="button ghost" type="reset">Reset</button></div></form>
+        <output class="calc-output" aria-live="polite"><span>Estimated monthly payment</span><strong>UGX 264,000</strong><small>Indicative reducing-balance calculation. Lender fees, insurance, taxes, penalties and rate changes are excluded.</small></output>
+      </div>
+    </section>
+
+    <section class="section case-study" id="case">
+      <div class="section-heading"><p class="eyebrow">Worked example</p><h2>Meet the fictional Nsubuga family</h2><p>This example teaches the method. The figures are invented for illustration and are not national averages.</p></div>
+      <div class="case-grid">
+        <article class="case-profile card"><h3>The household</h3><p>Sarah earns a stable UGX 2.2m salary. Daniel’s repair business averages UGX 1.4m, but ranges from UGX 700k to UGX 2.1m. They support two children and one parent.</p><div class="goal-list"><p><span>01</span> School term fees in 5 months</p><p><span>02</span> Emergency reserve in 18 months</p><p><span>03</span> Home deposit in 5 years</p></div></article>
+        <article class="case-table card"><h3>Before: fragile surplus</h3><table><tbody><tr><th>Conservative family income</th><td>UGX 3,200,000</td></tr><tr><th>Essentials and obligations</th><td>(2,540,000)</td></tr><tr><th>Debt payment</th><td>(310,000)</td></tr><tr><th>Unplanned/discretionary</th><td>(420,000)</td></tr><tr class="total negative"><th>Monthly difference</th><td>(70,000)</td></tr></tbody></table><p class="micro">They plan from Daniel’s lower reliable contribution, not his best month.</p></article>
+        <article class="case-table card"><h3>After: a deliberate difference</h3><table><tbody><tr><th>Conservative family income</th><td>UGX 3,200,000</td></tr><tr><th>Essentials and obligations</th><td>(2,420,000)</td></tr><tr><th>Debt payment</th><td>(310,000)</td></tr><tr><th>Chosen/discretionary</th><td>(220,000)</td></tr><tr class="total positive"><th>Monthly difference</th><td>UGX 250,000</td></tr></tbody></table><p class="micro">They cut leakage, renegotiate two bills and preserve a small enjoyment allowance.</p></article>
+      </div>
+      <div class="allocation"><div><span>UGX 150k</span><p>School-fee sinking fund</p></div><div><span>UGX 75k</span><p>Emergency reserve</p></div><div><span>UGX 25k</span><p>Home-goal starter fund</p></div></div>
+      <p class="note"><strong>What happens in a better business month?</strong> They first refill business working capital and tax provisions, then divide the genuine extra: 50% goals, 30% reserve/debt, 20% family enjoyment. Their ratio is a choice, not a universal rule.</p>
+    </section>
+
+    <section class="section risk-section">
+      <div class="section-heading"><p class="eyebrow">Before investing</p><h2>Ask better questions</h2></div>
+      <div class="risk-grid">
+        <article><h3>Time</h3><p>When must the money be available? A short deadline reduces the family’s ability to wait through a market fall.</p></article>
+        <article><h3>Loss</h3><p>How much could fall without threatening essentials or the goal? Capacity for loss matters more than excitement about returns.</p></article>
+        <article><h3>Access</h3><p>How quickly can the investment be sold, and at what cost? “Valuable” does not always mean “liquid”.</p></article>
+        <article><h3>Spread</h3><p>Is too much dependent on one business, property, issuer, currency or person? Diversification reduces concentration, not all risk.</p></article>
+        <article><h3>Cost</h3><p>What are all fees, taxes, penalties and commissions? Small recurring charges can materially reduce long-term outcomes.</p></article>
+        <article><h3>Legitimacy</h3><p>Who regulates the provider? Who holds the assets? Can claims and licences be verified independently?</p></article>
+      </div>
+      <aside class="warning"><strong>Investment scam warning signs:</strong> guaranteed high returns; pressure to act immediately; secrecy; referral rewards that dominate the economics; payment to a personal account; unclear custody; or resistance when you ask for a regulator, licence, audited information or withdrawal terms.</aside>
+    </section>
+
+    <section class="section learning-extensions" id="reading">
+      <div class="section-heading"><p class="eyebrow">From principle to practice</p><h2>Four decisions worth a deeper look</h2><p>The guide gives you the framework. These short extensions capture the most useful lessons from Kenneth Legesi’s related writing; the original articles provide the full cases and calculations.</p></div>
+      <div class="concept-cards">
+        <article><span>Protect</span><h3>Do not ask one product to do every job</h3><p>Life cover protects dependants from a death-related financial gap. Saving builds accessible reserves. Investing pursues growth. A combined policy may be suitable when its protection, discipline and guarantees justify its cost and long commitment—but test each job separately.</p><ul><li>What exact risk needs cover, and for how long?</li><li>Which benefits are guaranteed and which are bonuses?</li><li>What happens if premiums stop or the policy is surrendered?</li><li>Would separate insurance and investing provide better value or flexibility?</li></ul></article>
+        <article><span>Reserve</span><h3>Layer the rainy-day fund</h3><p>“Emergency money” may need three different responses rather than one account.</p><ol><li><strong>Immediate cash:</strong> same-day needs and small shocks.</li><li><strong>Liquid reserve:</strong> essential costs during income interruption, held where access time and capital stability fit the need.</li><li><strong>Risk transfer:</strong> suitable insurance for a catastrophic health, disability, life or property event that savings alone may not absorb.</li></ol><p class="micro">Longer-term assets can support recovery, but they should not be mistaken for immediately accessible cash.</p></article>
+        <article><span>Invest</span><h3>Use a money market fund deliberately</h3><p>A money market fund can serve short-term goals, sinking funds or part of a liquid reserve, but “low risk” is not “no risk”. Before using one:</p><ul><li>Verify the fund and manager with CMA Uganda.</li><li>Read the prospectus or fund factsheet and identify what the fund owns.</li><li>Compare net—not headline—returns, fees and consistency.</li><li>Confirm normal and stressed withdrawal timing.</li><li>Read statements: opening balance, contributions, withdrawals, income, fees and closing balance.</li></ul></article>
+        <article><span>Home</span><h3>Separate the dream from the financing structure</h3><p>A home goal needs an affordable property, a credible path to the deposit and financing that fits household cash flow. Rent-to-own can convert part of regular payments into a future purchase pathway, but the family must understand the option period, rent credits, purchase price, forfeiture terms, maintenance duties and the mortgage required at exercise.</p><p class="micro">Test affordability against a conservative income—not the household’s best month.</p></article>
+      </div>
+      <aside class="system-note"><p class="eyebrow">Systems over resolutions</p><p>Progress compounds through repeatable processes: a scheduled transfer, a monthly statement review, a quarterly protection check and an annual family reset. Motivation starts the plan; structure keeps it alive.</p></aside>
+      <div class="reading-heading"><div><p class="eyebrow">Original reading</p><h3>Continue with the full articles</h3></div><p>External articles may contain historical illustrations, rates or product terms. Treat them as dated case studies and verify current conditions independently.</p></div>
+      <div class="reading-grid">
+        <a href="https://www.linkedin.com/pulse/when-life-insurance-products-suitable-case-endowment-legesi-cfa-b3xqe" target="_blank" rel="noopener"><span>LinkedIn · 20 Jan 2025</span><strong>When are Life Insurance Products Suitable?</strong><p>An endowment-with-profits case: protection, discipline, liquidity, surrender terms and alternatives.</p></a>
+        <a href="https://www.linkedin.com/pulse/building-perfect-rainy-day-fund-kenneth-legesi-cfa-uciae" target="_blank" rel="noopener"><span>LinkedIn · 24 Jan 2025</span><strong>Building the Perfect Rainy-Day Fund</strong><p>A layered approach to liquidity, growth and catastrophic-risk protection.</p></a>
+        <a href="https://blog.impala.market/p/part-17-what-is-a-money-market-fund" target="_blank" rel="noopener"><span>Impala Market · Part 1/7</span><strong>What Is a Money Market Fund?</strong><p>The structure, underlying instruments, variable returns and statements.</p></a>
+        <a href="https://blog.impala.market/p/part-27-what-drives-money-market" target="_blank" rel="noopener"><span>Impala Market · Part 2/7</span><strong>What Drives MMF Returns?</strong><p>Market rates, cash drag, fees, risk choices and meaningful comparisons.</p></a>
+        <a href="https://blog.impala.market/p/part-37-how-to-use-a-money-market" target="_blank" rel="noopener"><span>Impala Market · Part 3/7</span><strong>MMFs in a Financial Plan</strong><p>Emergency reserves, short-term goals, irregular cash flow and sinking funds.</p></a>
+        <a href="https://blog.impala.market/p/part-47-what-are-the-risks-in-money" target="_blank" rel="noopener"><span>Impala Market · Part 4/7</span><strong>What Are the Risks in MMFs?</strong><p>Credit, liquidity and interest-rate risk—and what to check before investing.</p></a>
+        <a href="https://blog.impala.market/p/part-57-how-to-open-and-manage-a" target="_blank" rel="noopener"><span>Impala Market · Part 5/7</span><strong>Open and Manage an MMF Account</strong><p>Licensing, onboarding, funding, statements, withdrawals and review routines.</p></a>
+        <a href="https://www.linkedin.com/pulse/nobody-talks-path-homeownership-africa-could-change-legesi-cfa-rzoze" target="_blank" rel="noopener"><span>LinkedIn · 27 Mar 2025</span><strong>A Rent-to-Own Path to Homeownership</strong><p>Option periods, rent credits and an income-led route to a future mortgage.</p></a>
+        <a href="https://www.linkedin.com/pulse/new-year-me-kenneth-legesi-cfa-cawke" target="_blank" rel="noopener"><span>LinkedIn · 3 Jan 2026</span><strong>New Year, New Me?</strong><p>Why repeatable systems, not declarations, create compounding progress.</p></a>
+      </div>
+    </section>
+
+    <section class="section worksheets" id="worksheets">
+      <div class="section-heading"><p class="eyebrow">Print and use</p><h2>Your family planning sheets</h2><p>Complete these with pencil, or print the page to PDF. Add account numbers only to records stored securely—not to a sheet shared widely.</p></div>
+      <article class="worksheet" id="snapshot"><header><h3>1. Household snapshot</h3><p>Date: ____________ &nbsp; Next review: ____________</p></header><div class="worksheet-grid"><div><h4>What comes in</h4><span>Stable income</span><span>Variable income</span><span>Other support</span><span>Total</span></div><div><h4>What goes out</h4><span>Essentials</span><span>Commitments</span><span>Debt</span><span>Chosen spending</span></div><div><h4>What we own</h4><span>Cash and savings</span><span>Investments/pension</span><span>Property/business</span><span>Other</span></div><div><h4>What we owe</h4><span>Short-term debt</span><span>Long-term debt</span><span>Arrears</span><span>Total</span></div></div></article>
+      <article class="worksheet"><header><h3>2. Goal planner</h3><p>Choose no more than three priorities at first.</p></header><table class="blank-table"><thead><tr><th>Goal</th><th>Amount</th><th>Date</th><th>Already saved</th><th>Monthly action</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></article>
+      <article class="worksheet"><header><h3>3. Debt register</h3><p>Confirm whether the rate is flat or reducing balance.</p></header><table class="blank-table"><thead><tr><th>Lender</th><th>Balance</th><th>Rate & fees</th><th>Payment</th><th>Due date</th><th>Priority</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></article>
+      <article class="worksheet"><header><h3>4. Family money meeting</h3><p>Thirty minutes, once a month.</p></header><ol class="meeting-list"><li>One thing that improved</li><li>What changed since last month?</li><li>Commitments due before the next meeting</li><li>Progress on one priority goal</li><li>One decision and who will act</li><li>Next meeting date</li></ol></article>
+    </section>
+
+    <section class="section action" id="act">
+      <div class="section-heading"><p class="eyebrow">Your 30-day plan</p><h2>Small moves. Clear sequence.</h2></div>
+      <ol class="timeline"><li><span>Week 1</span><div><h3>See the whole picture</h3><p>Complete the snapshot. Gather balances, due dates, policies and beneficiary details.</p></div></li><li><span>Week 2</span><div><h3>Create breathing room</h3><p>Choose one cost to reduce, one bill to renegotiate and one income action to test.</p></div></li><li><span>Week 3</span><div><h3>Protect progress</h3><p>Open or identify the emergency reserve, fix an arrear and review the largest uninsured risk.</p></div></li><li><span>Week 4</span><div><h3>Fund the future</h3><p>Set one automatic transfer or calendar routine and hold the first family money meeting.</p></div></li></ol>
+      <div class="twelve-month"><h3>A simple 12-month rhythm</h3><p><strong>Monthly:</strong> cash flow and goal check.</p><p><strong>Quarterly:</strong> debt, income resilience and provider statements.</p><p><strong>Annually:</strong> goals, insurance, beneficiaries, pension, estate documents and family responsibilities.</p></div>
+      <aside class="open-source-cta" aria-labelledby="open-source-title">
+        <div><p class="eyebrow">Free and open source</p><h3 id="open-source-title">Use the pack. Improve it. Share it.</h3><p>Download the source, adapt the curriculum for your community, or suggest a correction on GitHub.</p></div>
+        <div class="cta-actions"><a class="button primary" href="https://github.com/Superstar1910/family-financial-planning-101" rel="noopener">View the public repository ↗</a><button class="button secondary" type="button" data-print>Print the planning pack</button></div>
+      </aside>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading"><p class="eyebrow">Common questions</p><h2>Plain answers</h2></div>
+      <details><summary>Must we clear every debt before investing?</summary><p>Not always. First prevent arrears and protect essentials. Expensive debt often deserves priority, while a pension contribution or a small long-term habit may continue. Compare the certain borrowing cost with the uncertain investment return and consider liquidity and employer contributions.</p></details>
+      <details><summary>How large should our emergency fund be?</summary><p>Start with a reachable first milestone, then build a range based on essential costs, income stability, dependants, health needs, insurance and available support. A household with irregular income may need more months than one with two stable earners.</p></details>
+      <details><summary>Is land always a safe investment?</summary><p>No asset is automatically safe. Land can face title fraud, disputes, concentration, illiquidity, transaction costs and uncertain income. Verify ownership and encumbrances independently, use qualified legal support and consider how the asset fits the family’s wider plan.</p></details>
+      <details><summary>How do we plan when income changes every month?</summary><p>Use a conservative base-income estimate, separate business and household money, fund essentials first, create sinking funds for predictable annual costs and allocate unusually good months before spending them.</p></details>
+      <details><summary>Should children join family money meetings?</summary><p>Age-appropriate participation can teach choices, patience and shared responsibility. Adults should keep sensitive account, debt and conflict details private and never make children responsible for adult financial stress.</p></details>
+    </section>
+
+    <section class="section glossary">
+      <div class="section-heading"><p class="eyebrow">Useful language</p><h2>Six terms worth knowing</h2></div>
+      <dl><div><dt>Cash flow</dt><dd>Money coming in and going out over a period.</dd></div><div><dt>Liquidity</dt><dd>How quickly an asset can become spendable cash without a large loss.</dd></div><div><dt>Real return</dt><dd>Investment return after allowing for inflation; fees and taxes may reduce it further.</dd></div><div><dt>Diversification</dt><dd>Spreading exposure so one loss does not determine the whole outcome.</dd></div><div><dt>Sinking fund</dt><dd>Money set aside gradually for a known future cost such as school fees or annual insurance.</dd></div><div><dt>Beneficiary</dt><dd>A person or entity designated to receive a benefit or asset, subject to the relevant rules and law.</dd></div></dl>
+    </section>
+
+    <section class="section sources" id="sources">
+      <div class="section-heading"><p class="eyebrow">Trust and transparency</p><h2>Use regulated providers. Verify before acting.</h2></div>
+      <p>This guide teaches general principles and does not recommend a product or provider. In Uganda, check relevant providers and licences with the official regulator: Bank of Uganda for supervised financial institutions and payment-system consumer protection; Capital Markets Authority Uganda for capital-markets intermediaries; Uganda Retirement Benefits Regulatory Authority for retirement schemes and service providers; and Insurance Regulatory Authority of Uganda for insurers and intermediaries.</p>
+      <div class="source-links"><a href="https://www.bou.or.ug/financial_inclusion_and_consumer_protection" rel="noopener">Bank of Uganda: inclusion & consumer protection ↗</a><a href="https://cmauganda.co.ug/" rel="noopener">Capital Markets Authority Uganda ↗</a><a href="https://urbra.go.ug/" rel="noopener">Uganda Retirement Benefits Regulatory Authority ↗</a><a href="https://ira.go.ug/" rel="noopener">Insurance Regulatory Authority of Uganda ↗</a></div>
+      <p class="micro">Source register and review notes are available in the project repository. Content reviewed 16 October 2026.</p>
+    </section>
+  </main>
+
+  <footer><div><strong>Family Financial Planning 101</strong><p>Spend deliberately. Earn resiliently. Protect the household. Invest with purpose.</p></div><div><p><strong>Educational use only.</strong> This is general information, not personalised financial, investment, tax, legal or insurance advice. Rules and product terms change; verify material decisions with current official sources and appropriately qualified professionals.</p><p>Version 1.2.0 · 16 October 2026 · <a href="#sources">Sources</a> · <a href="https://github.com/Superstar1910/family-financial-planning-101" rel="noopener">GitHub</a></p></div></footer>
+</body>
+</html>

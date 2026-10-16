@@ -4,6 +4,8 @@ A public, plain-language financial-literacy pack for families, built around four
 
 The site is designed first for Uganda and East Africa, while avoiding product promotion and keeping jurisdiction-specific claims clearly sourced and reviewable. It is educational material—not personalised financial, investment, tax, legal or insurance advice.
 
+**[Open the public guide](https://legesi.xyz/family-financial-planning-101/)**
+
 ## What is included
 
 - A mobile-first learning journey and hand-drawn framework
